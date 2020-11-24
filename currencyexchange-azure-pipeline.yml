@@ -25,6 +25,6 @@ stages:
       inputs:
         containerRegistry: 'docker-hub'
         repository: 'currency-exchange'
-        command: 'build'
+        command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'
