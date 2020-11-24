@@ -27,4 +27,4 @@ stages:
         repository: 'satishg/pineapple'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
-        tags: '$(tag)'
+        tags: 'currency-exchange-1.0.$(tag)'
